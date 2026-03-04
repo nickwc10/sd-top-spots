@@ -9,6 +9,7 @@
   padding: 0;
 }
 
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -24,6 +25,7 @@ body {
   font-weight: 700;
   color: #111111;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 /* --- Table Wrapper --- */
@@ -53,7 +55,7 @@ thead tr {
 
 th {
   padding: 10px 16px;
-  text-align: left;
+  text-align: center;
   font-weight: 700;
   font-size: 13px;
   color: #111111;

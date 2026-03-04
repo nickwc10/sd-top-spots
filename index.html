@@ -10,14 +10,25 @@
 <body>
     <!-- Write your markup here -->
     <h1 class="title">San Diego Top Spots</h1>
+    <div class="table-wrapper">
     <table>
-    <tr>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Link</th>
-    </tr>      
+        <colgroup>
+            <col class="col-name">
+            <col class="col-description">
+            <col class="col-link">
+        </colgroup>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Link</th>
+        </tr>
+        </thead>
+        <tbody id="spots-body"></tbody>
     </table>
+    </div>
     <!-- Don't forget to add your <script> tag here -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="main.js"></script>
 </body>
 
